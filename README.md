@@ -16,7 +16,7 @@ source .venv/bin/activate
 # Install packages
 uv pip install -r requirements.txt
 
-# Install the current project in editable (development) mode
+# Install the project in editable mode by locating setup.py for development purposes
 uv pip install -e .
 ```
 
